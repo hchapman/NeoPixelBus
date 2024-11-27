@@ -61,3 +61,9 @@ class NeoRgbwcFeature :
     public NeoElementsNoSettings
 {
 };
+
+class NeoRgbwxwxFeature :
+     public Neo7ssByteFeature<ColorIndexR, ColorIndexG, ColorIndexB, ColorIndexWW, ColorIndexCW>,
+     public NeoElementsNoSettings
+{
+};
